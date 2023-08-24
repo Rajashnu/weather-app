@@ -1,0 +1,153 @@
+
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#DADADA;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 400px;
+    margin: 250px 690px 100px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+  }
+  
+  /* Search styles */
+  .search {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #input-field {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  #first{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    width: 400px; ;
+    height: auto;
+  }
+  
+  #search_button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .errors {
+    color: red;
+  }
+  
+  /* Line1 styles */
+  .line1 {
+    margin-bottom: 20px;
+  }
+  
+  .line1 p {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .line1 span {
+    font-weight: bold;
+  }
+  
+  /* Temperature styles */
+  .weather {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .city_weather {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    margin-right: 10px;
+  }
+  
+  .icons-image {
+    width: 40px;
+  }
+  
+  .city {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .weather_condition {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .citytemp {
+    flex: 1;
+  }
+  
+  .temp {
+    font-size: 48px;
+    margin: 0;
+  }
+  
+  /* date styles */
+  .Todays_date {
+    margin-bottom: 20px;
+  }
+  
+  .date-text {
+    font-size: 18px;
+    margin: 0;
+  }
+  .view{
+    float: right;
+    text-decoration:none;
+  }
+  
+  .date-value {
+    margin: 0;
+  }
+  
+  /* phw styles */
+  .phw {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+.pressure{
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width:100px;
+  text-align: center;
+  height: auto;
+}
+.humidity{
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width:100px;
+  text-align: center;
+  height: auto;
+}
+.wind{
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width:100px;
+  text-align: center;
+  height: auto;
+}
